@@ -35,53 +35,99 @@ Section 3: Psychometric analysis
 ## VARIABLES
 
 PID       Participant ID
+
 Group			Participant group (high or low depression severity)
+
 PHQ			Total PHQ-9 score (calculated as sum of PHQ1:PHQ9)
+
 SADS			Total SADS score (calculated as sum of SADS01:SADS16)
 
+
 age			Participant age in years
+
 sex			Self-identified sex
+
 gender			Self-identified gender (multiple selections possible)
+
 sexual.orient		Self-identified sexual orientation (multiple selections possible)
+
 ethnicity		Self-identified ethnicity (multiple selections possible)
+
 smoking			Have you smoked cigarettes in the past 3 months?
+
 alcohol			Have you drank alcohol in the past 3 months?
+
 recdrugs		Have you used any recreational drugs in the past 3 months?
+
 curr.antidep		Are you currently taking antidepressant medication?
+
 ever.antidep		Have you ever taken antidepressant medication, now or in the past?
+
 curr.therapy		Are you currently in therapy or counselling for depression?
+
 ever.therapy		Have you ever been in therapy or counselling for depression, now or in the past?
+
 ViralLoad		Latest documented HIV RNA viral load
+
 CD4			Latest document absolute CD4 cell count
 
+
 PHQ1:PHQ9		Items on the PHQ-9 (asking about frequency IN THE PAST TWO WEEKS)
+
 PHQ1			Little interest or pleasure in doing things
+
 PHQ2			Feeling down, depressed, or hopeless
+
 PHQ3			Trouble falling or staying asleep, or sleeping too much
+
 PHQ4			Feeling tired or having little energy
+
 PHQ5			Poor appetite or overeating
+
 PHQ6			Feeling bad about yourself
+
 PHQ7			Trouble concentrating on things
+
 PHQ8			Moving or speaking so slowly that other people could have noticed? Or the opposite
+
 PHQ9			Thoughts that you would be better off dead or of hurting yourself in some way
+
 PHQ9_bonus		How difficult have these problems made it for you
 
+
 SADS01:SADS16		Items on the SADS (asking about frequency IN THE PAST WEEK)
+
 SADS01			Things were not going well in my life
+
 SADS02			I had difficulties sleeping
+
 SADS03			I was thinking too much
+
 SADS04			I did not want to be around people
+
 SADS05			I was feeling tired or without energy
+
 SADS06			I was not my usual self
+
 SADS07			I was carrying a lot of weight on my shoulders
+
 SADS08			I had stress
+
 SADS09			I did not feel like talking
+
 SADS10			I had pain in my heart
+
 SADS11			I cried
+
 SADS12			I was irritated easily
+
 SADS13			I was sad
+
 SADS14			I had no appetite or I ate more than usual
+
 SADS15			I was not interested in the things I used to like doing
+
 SADS16			I had deep sorrow
+
 SADS_bonus		When did you start feeling this way?
 
