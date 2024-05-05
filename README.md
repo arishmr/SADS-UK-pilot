@@ -1,4 +1,4 @@
-# SADS-UK-pilot
+## SADS-UK-pilot
 Pilot study of the utility of the South African Depression Scale (SADS) for measuring depressive symptoms in a UK sample
 
 This code repository contains code used for analysis for a sub-study of the INSIDE-HIV study, carried out at Brighton & Sussex Medical School (BSMS), University of Sussex, Brighton, UK. The objective of this pilot sub-study was to assess the psychometric performance of the recently-developed South African Depression Scale (SADS) in a UK sample.
@@ -8,31 +8,31 @@ The associated dataset for this study is available publicly at <LINK TBD>
 For any questions about the code or dataset, please contact the lead investigator: Arish Mudra Rakshasa-Loots (arish.mudrarakshasa@ed.ac.uk).
 
 
-############# SCRIPTS
+## SCRIPTS
 
 Data analysis is carried out using the following scripts:
 
-## Section 1: Preamble
+Section 1: Preamble
 Always run these when opening the project
 1-packages					Load (and install, if not already installed) the required packages for analysis
 2-load-data					Load the dataset (which can be downloaded from the DOI provided above)
 
-## Section 2: Demographics
+Section 2: Demographics
 3-demos						Summarise participant characteristics overall and by depression group
 
-## Section 3: Psychometric analysis
+Section 3: Psychometric analysis
 4-convergent					Calculate internal consistency of the SADS and convergent validity of the SADS with the PHQ-9 + plot total score correlations
 5-item-level					Plot distributions of item-level scores + carry out item-level analysis of the SADS
 
 
-############# NOTES
+## NOTES
 
 - My code is set up so that the 1-packages and 2-load-data scripts need to be run once each time when the project is opened, but not necessarily again.
 - I export figures and results files to a /Figures and /Results sub-folder within my working directory, respectively. 
 
 
 
-############# VARIABLES
+## VARIABLES
 
 PID       Participant ID
 Group			Participant group (high or low depression severity)
