@@ -3,7 +3,7 @@ Pilot study of the utility of the South African Depression Scale (SADS) for meas
 
 This code repository contains code used for analysis for a sub-study of the INSIDE-HIV study, carried out at Brighton & Sussex Medical School (BSMS), University of Sussex, Brighton, UK. The objective of this pilot sub-study was to assess the psychometric performance of the recently-developed South African Depression Scale (SADS) in a UK sample.
 
-The associated dataset for this study is available in this repository.
+The associated dataset for this study is available in this repository (**Full_Dataset.csv**).
 
 For any questions about the code or dataset, please contact the lead investigator: Arish Mudra Rakshasa-Loots (Arish.MRL@ed.ac.uk).
 
