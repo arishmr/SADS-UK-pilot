@@ -3,9 +3,9 @@ Pilot study of the utility of the South African Depression Scale (SADS) for meas
 
 This code repository contains code used for analysis for a sub-study of the INSIDE-HIV study, carried out at Brighton & Sussex Medical School (BSMS), University of Sussex, Brighton, UK. The objective of this pilot sub-study was to assess the psychometric performance of the recently-developed South African Depression Scale (SADS) in a UK sample.
 
-The associated dataset for this study is available publicly at <LINK TBD>
+The associated dataset for this study is available in this repository.
 
-For any questions about the code or dataset, please contact the lead investigator: Arish Mudra Rakshasa-Loots (arish.mudrarakshasa@ed.ac.uk).
+For any questions about the code or dataset, please contact the lead investigator: Arish Mudra Rakshasa-Loots (Arish.MRL@ed.ac.uk).
 
 
 ## SCRIPTS
@@ -13,15 +13,18 @@ For any questions about the code or dataset, please contact the lead investigato
 Data analysis is carried out using the following scripts:
 
 Section 1: Preamble
-Always run these when opening the project
-1-packages					Load (and install, if not already installed) the required packages for analysis
+
+Always run these when opening the project: 
+1-packages					Load (and install, if not already installed) the required packages for analysis; 
 2-load-data					Load the dataset (which can be downloaded from the DOI provided above)
 
 Section 2: Demographics
+
 3-demos						Summarise participant characteristics overall and by depression group
 
 Section 3: Psychometric analysis
-4-convergent					Calculate internal consistency of the SADS and convergent validity of the SADS with the PHQ-9 + plot total score correlations
+
+4-convergent					Calculate internal consistency of the SADS and convergent validity of the SADS with the PHQ-9 + plot total score correlations; 
 5-item-level					Plot distributions of item-level scores + carry out item-level analysis of the SADS
 
 
@@ -49,27 +52,9 @@ sex			Self-identified sex
 
 gender			Self-identified gender (multiple selections possible)
 
-sexual.orient		Self-identified sexual orientation (multiple selections possible)
-
-ethnicity		Self-identified ethnicity (multiple selections possible)
-
-smoking			Have you smoked cigarettes in the past 3 months?
-
-alcohol			Have you drank alcohol in the past 3 months?
-
-recdrugs		Have you used any recreational drugs in the past 3 months?
-
 curr.antidep		Are you currently taking antidepressant medication?
 
 ever.antidep		Have you ever taken antidepressant medication, now or in the past?
-
-curr.therapy		Are you currently in therapy or counselling for depression?
-
-ever.therapy		Have you ever been in therapy or counselling for depression, now or in the past?
-
-ViralLoad		Latest documented HIV RNA viral load
-
-CD4			Latest document absolute CD4 cell count
 
 
 PHQ1:PHQ9		Items on the PHQ-9 (asking about frequency IN THE PAST TWO WEEKS)
@@ -91,8 +76,6 @@ PHQ7			Trouble concentrating on things
 PHQ8			Moving or speaking so slowly that other people could have noticed? Or the opposite
 
 PHQ9			Thoughts that you would be better off dead or of hurting yourself in some way
-
-PHQ9_bonus		How difficult have these problems made it for you
 
 
 SADS01:SADS16		Items on the SADS (asking about frequency IN THE PAST WEEK)
@@ -128,6 +111,4 @@ SADS14			I had no appetite or I ate more than usual
 SADS15			I was not interested in the things I used to like doing
 
 SADS16			I had deep sorrow
-
-SADS_bonus		When did you start feeling this way?
 
