@@ -1,6 +1,6 @@
 ## Plot histograms / distributions of scores for each item of the SADS and PHQ-9
 
-plotdata <- alldata[,c(1:4,21:36)] %>%
+plotdata <- alldata[,c(1:4,18:33)] %>%
   gather(key = "q",
          value = "score",
          SADS01:SADS16,
@@ -14,7 +14,7 @@ ggplot(plotdata, aes(score)) +
 ggsave("Figures/SADS Item-Level Scores.png", width = 8, height = 8, bg = "white")
 
 
-plotdata <- alldata[,c(1:4,12:20)] %>%
+plotdata <- alldata[,c(1:4,9:17)] %>%
   gather(key = "q",
          value = "score",
          PHQ1:PHQ9,
@@ -34,7 +34,7 @@ rm(plotdata)
 
 library(psychometric)
 
-data <- alldata[,c(21:36)]
+data <- alldata[,c(18:33)]
 
 itemexam <- item.exam(data, y = NULL, discrim = F)[,c(1:3,7,8)]
 itemexam$Mean <- as.numeric(apply(data, 2, mean))
