@@ -2,7 +2,7 @@
 
 library(psychometric)
 colnames(alldata)
-data <- alldata[,c(21:36)]
+data <- alldata[,c(18:33)]
 cronbach <- alpha(data)
 cronbach.CI <- as.numeric(alpha.CI(cronbach, k = 16, N = 20, level = 0.95))
 
