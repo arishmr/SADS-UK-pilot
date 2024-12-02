@@ -46,11 +46,7 @@ PHQ			Total PHQ-9 score (calculated as sum of PHQ1:PHQ9)
 SADS			Total SADS score (calculated as sum of SADS01:SADS16)
 
 
-age			Participant age in years
-
 sex			Self-identified sex
-
-gender			Self-identified gender (multiple selections possible)
 
 curr.antidep		Are you currently taking antidepressant medication?
 
