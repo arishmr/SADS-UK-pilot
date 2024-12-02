@@ -1,16 +1,16 @@
 demodata <- alldata %>%
   dplyr::select(c(Group,
-    age, sex, gender, ethnicity, curr.antidep, ever.antidep, ViralLoad)
+    sex, curr.antidep, ever.antidep, ViralLoad)
     )
 
 ## Create gt_summary table by depression status
 
 tab1 <- tbl_summary(demodata,
                     by = Group,
-                    type = list(age ~ "continuous",
+                    type = list(#age ~ "continuous",
                                 sex ~ "categorical",
-                                gender ~ "categorical",
-                                ethnicity ~ "categorical",
+                                #gender ~ "categorical",
+                                #ethnicity ~ "categorical",
                                 curr.antidep ~ "categorical",
                                 ever.antidep ~ "categorical"
                                 ),
@@ -20,10 +20,10 @@ tab1 <- tbl_summary(demodata,
                     ),
                     digits = all_continuous() ~ 1,
                     label = list(
-                      age ~ "Age (years)",
+                      #age ~ "Age (years)",
                       sex ~ "Sex",
-                      gender ~ "Gender",
-                      ethnicity ~ "Ethnicity",
+                      #gender ~ "Gender",
+                      #ethnicity ~ "Ethnicity",
                       curr.antidep ~ "Currently Taking Antidepressants",
                       ever.antidep ~ "Ever Taken Antidepressants"
                       ),
